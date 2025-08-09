@@ -18,6 +18,7 @@ export const ClientProfile: React.FC<ClientProfileProps> = ({
       <img
         src={avatar}
         alt={`${name} profile`}
+        loading="lazy"
         className="aspect-[1.02] object-contain w-14 shrink-0 rounded-[43px]"
       />
       <div className="my-auto">

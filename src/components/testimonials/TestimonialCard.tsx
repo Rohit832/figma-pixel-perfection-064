@@ -30,7 +30,8 @@ export const TestimonialCard: React.FC<TestimonialCardProps> = ({
           <img
             src="https://api.builder.io/api/v1/image/assets/d591ca4ef2284baeaec9047fb1d46b80/de19ddd7fb1a0d6c6e408016478372ebb2a1d076?placeholderIfAbsent=true"
             alt="5 star rating"
-            className="object-contain w-[479px] max-w-full"
+            loading="lazy"
+            className="object-contain w-full max-w-[479px]"
           />
           <div className="flex w-full items-center gap-[40px_119px] mt-[26px] max-md:max-w-full">
             <ClientProfile
